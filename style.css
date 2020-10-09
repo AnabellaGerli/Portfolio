@@ -1,0 +1,36 @@
+header{
+    height: 40vh;
+    background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    height:33vh ;
+}
+
+i{
+    font-size: 35px;
+    color:#CF5300;
+    transition: 0.5s;
+}
+i:hover{
+    transform: scale(1.5);
+    transition: 0.5;
+}
+
+#anim{
+    animation-name: move;
+    animation-duration: 4s;
+    margin-left: 700px;
+}
+@keyframes move{
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 700px;
+    }
+}
