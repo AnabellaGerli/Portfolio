@@ -20,8 +20,11 @@ i:hover{
     transform: scale(1.5);
     transition: 0.5;
 }
-
+#no-anim{
+    display: none;
+}
 #anim{
+    display: block;
     animation-name: move;
     animation-duration: 4s;
     margin-left: 700px;
@@ -33,4 +36,12 @@ i:hover{
     100%{
         margin-left: 700px;
     }
+}
+
+
+@media (max-width: 1000px) {
+    #anim{
+    display:none;
+}
+#no-anim{ display: block;}
 }
